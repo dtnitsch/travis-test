@@ -6,6 +6,14 @@ php:
   - "5.5"
   - "5.4"
   - "5.3"
+  - "5.2"
+
+matrix:
+  include:
+    - php: 5.2
+      dist: precise
+    - php: 5.3
+      dist: precise
 
 before_script:
   - composer install
