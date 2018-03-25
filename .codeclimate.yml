@@ -5,7 +5,7 @@ plugins:
     enabled: true
     config:
       file_extensions: "php"
-      rulesets: "unusedcode,codesize,naming"
+      rulesets: "unusedcode,codesize,naming,phpmd.xml"
 exclude_patterns:
   - tests/**/*
   - "**/vendor/**/*"
