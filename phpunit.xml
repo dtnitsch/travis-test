@@ -7,6 +7,11 @@
          stopOnFailures="false"
          syntaxCheck="false"
          >
+    <filter>
+        <whitelist>
+            <directory>/app</directory>
+        </whitelist>
+    </filter>
     <testsuites>
         <testsuite name="Tutorial Unit Tests">
             <directory suffix=".php">./tests/</directory>
